@@ -1,5 +1,10 @@
 # skid-silencer
 
-create .env file with TOKEN=your_token (no parenthesis)
+Discord bot for kicking people asking questions like: "how to hack account x".
+  - will delete message
+  - will kick author
 
-will listen for messages like: "how to hack account x", removes message, adds skid role if present and kicks user
+1. install discord.py with requirements if not present
+2. create .env file with TOKEN=your_token (no parenthesis)
+
+created with no previous experience of the discord library, therefore not an advanced bot
