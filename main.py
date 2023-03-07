@@ -6,7 +6,7 @@ from discord.ext import commands
 intents = discord.Intents.default()
 intents.message_content = True
 
-platforms = ["account", "instagram", "snapchat", "discord", "reddit", "steam", ]
+platforms = ["account", "instagram", "snapchat", "discord", "reddit", "steam"]
 regex_str = r"(?=.*hack)(?=.*\b(?:{})\b)".format("|".join(platforms))
 pattern = re.compile(regex_str)
 
