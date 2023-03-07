@@ -26,7 +26,7 @@ def run_skid_silencer():
     async def on_message(ctx):
         if ctx.author != client.user and re.match(pattern, ctx.content):
             await ctx.delete()
-            await ctx.author.add_roles(ctx.guild.get_role(1082635084072505424))
+            #await ctx.author.add_roles(ctx.guild.get_role(1082635084072505424)) adding role named 'skid'
             await ctx.author.kick(reason="lmao get out")
 
         await client.process_commands(ctx)
