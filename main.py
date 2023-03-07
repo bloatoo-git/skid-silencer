@@ -39,7 +39,7 @@ def run_skid_silencer():
         await chnl.send(msg)
 
     @client.command(name="purge")
-    async def _pruge(ctx, number: int):
+    async def _purge(ctx, number: int):
         await ctx.channel.purge(limit=number)
 
     client.run(TOKEN) # starting the client
